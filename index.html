@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+
+<body>
+    <h1>Array Methods</h1>
+    <h3>The Array of Numbers: </h3>
+    <p id="array"></p>
+
+    <div class="section">
+        <button onclick="reverse(arr)">Reverse</button>
+        <button onclick="removeLast(arr)">Remove Last</button>
+        <button onclick="removeFirst(arr)">Remove First</button>
+    </div>
+
+    <h3>The Array of Strings: </h3>
+    <p id="stringArray"></p>
+
+    <div class="section">
+        <button onclick="sortStrings(stringArr)">Sort</button>
+        <button onclick="shuffle(stringArr)">Shuflle</button>
+        <button onclick="findLongest(stringArr)">FindLongest</button>
+    </div>
+
+    <h3>The Array of Objects: </h3>
+    <p id="objArr"></p>
+
+    <div class="section">
+        <button onclick="findFemales(objArr)">Females</button>
+        <button onclick="findOldest(objArr)">Oldest</button>
+        <button onclick="sortByLastName(objArr)">Sort by Last Name</button>
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <p id="stringArray"></p>
+</body>
+
+</html>
